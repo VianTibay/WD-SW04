@@ -67,8 +67,9 @@ Guiding Question:
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website
-- Parallax transition
+- Multiple Page website
+- 2-features Webpages 
+- This includes unique and distinctful designs.
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -109,13 +110,9 @@ WD-ProjectName
 └─ index.html
 └─ readme.md
 ```
-<!-- TODO: Add References -->
-| Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | VianTibay.com |
 ## Resources
-
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|Pinterest| This purpose statement helps frame the reference section as a valuable part of your README, showcasing where ideas and knowledge have been sourced from while giving credit to their creators. Adjust the statement to fit the specific context and resources relevant to your project.|https://www.pinterest.com|
+|W3 school|The use of W3Schools ensures that WD-Hands-on 2 benefits from reliable information and guidelines in web development, contributing to the project's quality and adherence to established standards.|https://www.w3schools.com|
