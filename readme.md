@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/VianTibay">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="" alt="Rotov" width="130" height="100">
+    <img src="./assets/img/sh.gif" alt="Rotov" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Features</h3>
@@ -60,9 +60,10 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- What are key components
-- What technology used and how it is used
+- who will benefit most from project?
+- What specific issues or challenges are addressed?
+- What is the structure of the codebase (e.g., folders, modules, components)?
+- Are there specific frameworks or libraries that the project relies on?
 
 ### Key Components
 <!-- TODO: List of Key Components -->
