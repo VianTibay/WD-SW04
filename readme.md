@@ -13,14 +13,14 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Website)
+  <!-- Short Description. (Website) -->
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=VianTibay/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=VianTibay/WD-SW04)
 
 ---
 
@@ -57,7 +57,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This website features an extensive collection of 2 unique feature,  showcasing a diverse range of creative options.
 
 Guiding Question:
 - who will benefit most from project?
