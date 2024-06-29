@@ -11,9 +11,9 @@
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Features</h3>
 </div>
-<!-- TODO: Make a short description -->
+This feature design ensures a high-quality, functional, and aesthetically pleasing web experience for all users.
 <div align="center">
-  <!-- Short Description. (Website) -->
+  
 </div>
 
 <br />
