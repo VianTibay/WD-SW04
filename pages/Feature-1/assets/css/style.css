@@ -1,0 +1,187 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .header ul {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    padding: 25px;
+
+  
+    li {
+      position: relative;
+  
+      a {
+        display: flex;
+        outline: red solid 1px;
+        padding: 0.7rem;
+        color: black;
+        text-decoration: none;
+        position: relative;
+        overflow: hidden;  
+        z-index: 1; 
+       gap: 10px;
+        
+        
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: -2px;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background-color: bisque;
+          transform: scaleX(0);
+          transform-origin: bottom right;
+          transition: transform 0.3s ease-in-out;
+          z-index: -1; /* Place the pseudo-element below the link text */
+        }
+  
+        &:hover::after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+  
+        &:hover {
+          border-color: darkgoldenrod;
+          background-color: coral;
+        }
+  
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: -100%;
+          width: 200%;
+          height: 100%;
+          background: linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+          transform: skewX(-30deg);
+          transition: transform 0.5s ease;
+          z-index: -1; /* Place the pseudo-element below the link text */
+        }
+  
+        &:hover::before {
+          transform: translateX(100%);
+        }
+      }
+    }
+  }
+.hero{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(210, 210, 33);
+ height: 60dvh;
+}
+.features{
+background-color: aqua;
+height: fit-content;
+
+& .feature{
+  position: relative;
+  height: 82dvh;
+  z-index: 1;
+  background-color: rgb(147, 115, 185);
+  & > img.avatarimg{
+    /* position: relative;
+    top: -2rem;
+    left: -6rem; */
+ margin: 1rem 34rem; 
+    /* outline: 1px solid brown; */
+    height: 17rem;
+    width: 12rem;
+   }
+   .left-side{
+    background-color: darkviolet;
+    & .left-sides img{
+      display: flex;
+      height: 16rem;
+      float: inline-end;
+      margin: -71px 23rem;
+      /* outline: 1px solid green; */
+    }
+    &  p{
+      /* outline: 1px solid beige; */
+     position: relative;
+     z-index: -1;
+     left: 25rem;
+     top: 1rem;
+     width: 20%;
+     letter-spacing: 2px;
+    }
+    &  h2{
+      position: relative;
+      top: 0;
+      left: 27rem;
+      /* outline: 1px solid gold; */
+      width: 16%;
+      font-size: 35px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      letter-spacing: .8rem;
+    }
+       }
+       .right-side{
+       /* background: url("https://cdn.oneesports.gg/cdn-data/2024/05/HonorofKings_officiallogo.jpg") black; */
+    background-color: brown;
+    height: 55rem;
+    &  .hero-img{
+    height: 10rem;
+display: flex;
+flex-direction: column;
+margin: 0 35rem;
+align-items: center;
+& > h1{
+  font-size: 25px;
+  width: 11rem;
+}
+& > p{
+  width: 20rem;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 120%;
+}
+& .video{
+
+  transition: tr 1s ease-in-out;
+&:hover{
+  transform:scale(1.1);
+}
+}
+    & .avatarimg{
+      outline: 1px solid white;
+      border-radius: 60%;
+      height: 10rem;
+      /* position: absolute; */
+      width: 10rem;
+    }
+    }
+       }
+}
+& .content{
+display: flex;
+justify-content: center;
+font-size: 2rem;
+
+}
+& .description{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+  /* outline: 1px solid green; */
+  .right{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+
+}
+ 
