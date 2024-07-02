@@ -59,11 +59,11 @@
 <!-- The following are just sample -->
 This website features an extensive collection of 2 unique feature,  showcasing a diverse range of creative options.
 
-Guiding Question:
+<!-- Guiding Question:
 - who will benefit most from project?
 - What specific issues or challenges are addressed?
 - What is the structure of the codebase (e.g., folders, modules, components)?
-- Are there specific frameworks or libraries that the project relies on?
+- Are there specific frameworks or libraries that the project relies on? -->
 
 ### Key Components
 <!-- TODO: List of Key Components -->
