@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 * {
     border: 0;
     padding: 0;
@@ -72,116 +77,74 @@
       }
     }
   }
-.hero{
-  font-size: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(210, 210, 33);
- height: 60dvh;
+  .hero{
+    display: flex;
+    justify-content: center;
+    opacity: 80%;
+    & > video{
+        width: 95rem;
+    }
+
+  }
+  .content{
+  position: absolute;
+  top: 19rem;
+left: 27.1rem;
+letter-spacing: 5px;
+color: rgba(213, 240, 106, 0.76);
+}  
+.charactxt{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    align-items: center;
 }
 .features{
-background-color: aqua;
-height: fit-content;
+    .roaming{
+        display: flex;
+        /* & > img.role{
+            height: 30rem;
+           
+        } */
+        & > .akaipic{
+         width: 67rem;
+         height:30rem;
+opacity: 85%;
+        }
+        & > .content-1{
+            position: absolute;
+ left: 21.6rem;
+ top: 45rem;
+            color: darkorange;
 
-& .feature{
-  position: relative;
-  height: 82dvh;
-  z-index: 1;
-  background-color: rgb(147, 115, 185);
-  & > img.avatarimg{
-    /* position: relative;
-    top: -2rem;
-    left: -6rem; */
- margin: 1rem 34rem; 
-    /* outline: 1px solid brown; */
-    height: 17rem;
-    width: 12rem;
-   }
-   .left-side{
-    background-color: darkviolet;
-    & .left-sides img{
-      display: flex;
-      height: 16rem;
-      float: inline-end;
-      margin: -71px 23rem;
-      /* outline: 1px solid green; */
+            /* background-color: blue; */
+        }
+      
     }
-    &  p{
-      /* outline: 1px solid beige; */
-     position: relative;
-     z-index: -1;
-     left: 25rem;
-     top: 1rem;
-     width: 20%;
-     letter-spacing: 2px;
-    }
-    &  h2{
-      position: relative;
-      top: 0;
-      left: 27rem;
-      /* outline: 1px solid gold; */
-      width: 16%;
-      font-size: 35px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      letter-spacing: .8rem;
-    }
-       }
-       .right-side{
-       /* background: url("https://cdn.oneesports.gg/cdn-data/2024/05/HonorofKings_officiallogo.jpg") black; */
-    background-color: brown;
-    height: 55rem;
-    &  .hero-img{
-    height: 10rem;
-display: flex;
-flex-direction: column;
-margin: 0 35rem;
-align-items: center;
-& > h1{
-  font-size: 25px;
-  width: 11rem;
-}
-& > p{
-  width: 20rem;
-  font-weight: 400;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 120%;
-}
-& .video{
-
-  transition: tr 1s ease-in-out;
-&:hover{
-  transform:scale(1.1);
-}
-}
-    & .avatarimg{
-      outline: 1px solid white;
-      border-radius: 60%;
-      height: 10rem;
-      /* position: absolute; */
-      width: 10rem;
-    }
-    }
-       }
-}
-& .content{
-display: flex;
-justify-content: center;
-font-size: 2rem;
-
-}
-& .description{
-  display: flex;
-  flex-direction: column;
-justify-content: center;
-align-items: center;
-  /* outline: 1px solid green; */
-  .right{
+    & .expline{
     display: flex;
-    justify-content: flex-end;
-  }
+    flex-direction: row-reverse;
+    & > .right{
+        width: 67rem;
+        height:30rem;
+opacity: 85%;
+    }
+    
+    }
+    & .gold{
+        display: flex;
+        & > .left{
+            width: 67rem;
+            height:30rem;
+    opacity: 85%;
+        }
+        
+        }
 }
 
-
+.role{
+    height: 30rem; 
 }
- 
