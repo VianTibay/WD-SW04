@@ -5,7 +5,13 @@
     font-family: "Noto Sans", sans-serif;
     scroll-behavior: smooth;
   }
-  
+  .header{
+    position: sticky;
+    top: 0;
+ 
+    box-shadow: 1px 2px green;
+    z-index: 1000;
+  }
   .header ul {
     list-style: none;
     justify-content: center;
@@ -72,3 +78,50 @@
       }
     }
   }
+& .container{
+  
+  & > .bg{
+    width: 80.2rem;
+    opacity: 50%;
+  }
+  & .overlay{
+    position: absolute;
+    top: 8rem;
+    width: 80rem;
+    z-index: -1;
+  }
+
+
+}
+& .content{
+  display: flex;
+  position: absolute;
+  top: 7.9rem;
+  &  .gilid{
+    display: flex;
+border-radius: 10%;
+height: 25rem;
+
+
+  }
+  & > h1{
+    background-color: aliceblue;
+    height: 2rem;
+    margin: 5rem 15rem;
+  }
+  & > p{
+    background-color: aquamarine;
+   position: absolute;
+   top: 10rem;
+   left: 30rem;
+  }
+}
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+}
+body{
+  background-color: black;
+  overflow-x: hidden;
+}
