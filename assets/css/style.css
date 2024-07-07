@@ -1,0 +1,74 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .header ul {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    padding: 25px;
+
+  
+    li {
+      position: relative;
+  
+      a {
+        display: flex;
+        outline: red solid 1px;
+        padding: 0.7rem;
+        color: black;
+        text-decoration: none;
+        position: relative;
+        overflow: hidden;  
+        z-index: 1; 
+       gap: 10px;
+        
+        
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: -2px;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background-color: bisque;
+          transform: scaleX(0);
+          transform-origin: bottom right;
+          transition: transform 0.3s ease-in-out;
+          z-index: -1; /* Place the pseudo-element below the link text */
+        }
+  
+        &:hover::after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+  
+        &:hover {
+          border-color: darkgoldenrod;
+          background-color: coral;
+        }
+  
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: -100%;
+          width: 200%;
+          height: 100%;
+          background: linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+          transform: skewX(-30deg);
+          transition: transform 0.5s ease;
+          z-index: -1; /* Place the pseudo-element below the link text */
+        }
+  
+        &:hover::before {
+          transform: translateX(100%);
+        }
+      }
+    }
+  }
