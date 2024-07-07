@@ -109,19 +109,37 @@ color: rgba(213, 240, 106, 0.76);
             height: 30rem;
            
         } */
+        
         & > .akaipic{
          width: 67rem;
          height:30rem;
 opacity: 85%;
         }
-        & > .content-1{
+        & > .content-1{ 
+ 
             position: absolute;
  left: 21.6rem;
  top: 45rem;
             color: darkorange;
 
             /* background-color: blue; */
+            & > .video-1{
+              width: 25rem;
+              margin: 10rem;
+             }
+             & > h1{
+              display: flex;
+              justify-content: center;
+              letter-spacing: 1rem;
+              
+             }
+        & > p{
+          display: flex;
+          justify-content: center;
+          width: 50rem;
         }
+            }
+
       
     }
     & .expline{
@@ -132,6 +150,45 @@ opacity: 85%;
         height:30rem;
 opacity: 85%;
     }
+    .content-2{
+      display: flex;
+      align-items: center;
+  
+      position: absolute;
+    margin: 7rem 19rem ;
+      
+      & > .vi{
+        width: 25rem;
+        /* opacity: 50%; */
+        
+      }
+      & > h1{
+       position: absolute;
+       top: -1rem;
+       left: -25rem;
+       letter-spacing: 5px;
+       /* outline: 1px solid */
+       padding:1em;
+      }
+      & > p{
+        position: absolute;
+        top: 4rem;
+        left: -27rem;
+        letter-spacing: 3px;
+        padding: 2rem ;
+        /* outline: 1px solid; */
+        width: 27rem;
+        transition: all 1s ease-in-out ;
+        &:hover{
+          width: 90%;
+          background-color: darkgoldenrod;
+          color: bisque;
+          border-radius: 10%;
+        }
+
+      }
+
+    }
     
     }
     & .gold{
@@ -140,6 +197,32 @@ opacity: 85%;
             width: 67rem;
             height:30rem;
     opacity: 85%;
+        }
+        & .content-3{
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 10px;
+          
+      
+          position: absolute;
+        margin: 7rem 55rem ;
+       /* outline: 1px solid; */
+       width: 20em; 
+      & > .video{
+        position: absolute;
+        left: -35rem;
+        height: 15em;
+        top: 4.9rem;
+      }  
+      & h1{
+        width: 0%;
+        transition: all  1s ease-in;
+        &:hover{
+          width: 13%;
+          background-color: aquamarine;
+        }
+      }
         }
         
         }
